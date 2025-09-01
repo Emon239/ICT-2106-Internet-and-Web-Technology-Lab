@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+   <div class="container">
+
+    <div class="container">
+<!-- 
+    <button class="btn btn-primary me-2">
+      <i class="bi bi-hand-thumbs-up"></i> Primary
+    </button>
+
+    <button class="btn btn-success me-2">
+      <i class="bi bi-check-circle"></i> Success
+    </button> -->
+
+    <br><br>
+    <p id="paraId" class="bg-info-subtle p-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate ducimus fugit, totam eius cum eveniet aliquam eos unde et vel, velit similique quaerat eligendi perferendis. Omnis sint quod fuga?
+    </p>
+
+    <button onclick="alert('Hello')" class="btn btn-warning me-2">
+      Hello Button
+    </button>
+
+    <button onclick="Paraclick()" class="btn btn-info text-white me-2">
+      <!-- <i class="bi bi-bell"></i> Button-1 -->
+       Button1
+    </button>
+
+    <button onclick="Paraclick()" class="btn btn-secondary">
+      Change Paragraph
+    </button>
+    <button class="btn btn-danger" onclick="Imageclick()">ImageButton</button>
+
+     <img id="imageId" src="image/placeholder.png" alt="demo" height="300" width="300">
+      <!-- <img id="imageId" src="#" alt="" height="300" width="300"> --> 
+
+
+  </div>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
